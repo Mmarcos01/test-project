@@ -1,0 +1,117 @@
+
+/*......................................B A C K G R O U N D . Toilet-Paper-! */
+body {
+  position: relative;
+  background-color: rgb(41, 41, 41);
+  height: max-content;
+  min-height: 100vh;
+}
+
+#background-overlay {
+  position: absolute;
+  height:100%;
+  width: 150%;
+  background: url(img/wallpapers.png) repeat center center fixed;
+  background-size: 35%;
+  opacity: .07;
+  z-index: -1
+}
+#background-underlay {
+  position: absolute;
+  height:100%;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+  z-index: -2
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5em;
+}
+
+/*.......................................T w e n t y 2 0  . T r i v i a (h1) */
+h1 {
+  font-family: 'Limelight', cursive;
+  font-size: 50px;
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  background: gray;
+  text-align: center;
+  margin-bottom: 15px;
+}
+/*...............................................L e a d e r . B o a r d (h2) */
+h2 {
+  font-family: 'Limelight', cursive;
+  width: 100%;
+  font-size: 30px;
+  margin: 0 auto;
+  height: 30px;
+  padding-top: 5px;
+  background: rgb(155, 120, 120);  
+  text-align: center;
+
+}
+/*..........................................L E A D E R B O A R D . T A B L E  */
+
+/* container that HOLDS the leaderboard table*/
+#leaderBoardBox {
+  background-image: url("/img/toilet-paper.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* position: relative; */
+  height: 400px;
+  width: 960px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 25px;
+}
+
+/* the actual leaderboard ID */
+#leaderBoard {
+  position: relative;
+  top: 30%;
+  left: 17%;
+  width: 470px;
+}
+
+table, td {
+  color: rgb(15, 6, 6);
+  background-color: rgb(180, 173, 173);
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bold;
+  text-align: center;
+  border: solid  rgb(0, 62, 78) 3px;
+  border-collapse: collapse;
+  border-width: 5px;
+  margin-top: 20px;
+  padding: 5px;
+  width:500px;
+  margin: 0 auto;
+}
+
+td:hover {
+ color: rgb(155, 0, 0);
+}
+
+th, tfoot {
+  text-align: center;
+  border: solid  rgb(0, 62, 78) 12px;
+  border-width: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*...............................................S C R O L L I N G    T E X T  */
+.twentyTwentyScroll {
+  height: 50px;  
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5px;
+ }
