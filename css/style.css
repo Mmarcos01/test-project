@@ -61,7 +61,7 @@ h2 {
 
 /* container that HOLDS the leaderboard table*/
 #leaderBoardBox {
-  background-image: url("..img/toilet-paper.png");
+  background-image: url("../img/toilet-paper.png");
   background-repeat: no-repeat;
   background-size: 100%;
   /* position: relative; */
